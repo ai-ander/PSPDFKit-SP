@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "PSPDFKit",
     platforms: [
-        .iOS(.v15),
+        .iOS(.v13),
         .macCatalyst(.v15)
     ],
     products: [
