@@ -1,12 +1,11 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.7.1
 
 import PackageDescription
 
 let package = Package(
     name: "PSPDFKit",
     platforms: [
-        .iOS(.v13),
-        .macCatalyst(.v15)
+        .iOS(.v13)
     ],
     products: [
         .library(
